@@ -38,7 +38,7 @@ animate_text() {
 # --- Loading Animation ---
 loading_bar() {
     clear
-    echo -e "${B_RED}Initializing Jishnu Installer...${NC}"
+    echo -e "${B_RED}Initializing Devin Installer...${NC}"
     echo -ne "${B_RED}[${NC}"
     for i in {1..40}; do
         echo -ne "${B_WHITE}█${NC}"
