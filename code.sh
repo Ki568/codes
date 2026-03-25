@@ -175,7 +175,7 @@ while true; do
             sleep 1
             ;;
         e)
-            echo -e "${B_GREEN}Thank you for using Jishnu Installer!${NC}"
+            echo -e "${B_GREEN}Thank you for using DEVIN Installer!${NC}"
             animate_text "Exiting..." 0.05
             exit 0
             ;;
