@@ -154,17 +154,20 @@ done
 6)
     echo -e "${GREEN}Installing Cloudflared...${NC}"
 
-    sudo mkdir -p --mode=0755 /usr/share/keyrings
-    curl -fsSL https://pkg.cloudflare.com/cloudflare-public-v2.gpg | sudo tee /usr/share/keyrings/cloudflare-public-v2.gpg >/dev/null
+    # Add cloudflare gpg key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-public-v2.gpg | sudo tee /usr/share/keyrings/cloudflare-public-v2.gpg >/dev/null
 
-    echo 'deb [signed-by=/usr/share/keyrings/cloudflare-public-v2.gpg] https://pkg.cloudflare.com/cloudflared any main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
+# Add this repo to your apt repositories
+echo 'deb [signed-by=/usr/share/keyrings/cloudflare-public-v2.gpg] https://pkg.cloudflare.com/cloudflared any main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
 
-    sudo apt-get update && sudo apt-get install cloudflared -y
+# install cloudflared
+sudo apt-get update && sudo apt-get install cloudflared
 
     echo ""
     read -p "Enter your Cloudflare Tunnel Token: " token
 
-    sudo cloudflared service install $token
+    $token
     sudo systemctl start cloudflared
     sudo systemctl enable cloudflared
 
