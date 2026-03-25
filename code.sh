@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # ==========================================
-# PANEL WINGS INSTALLER - JISHNU EDITION
+# PANEL WINGS INSTALLER - DEVIN EDITION
 # ==========================================
 
 # --- Colors ---
