@@ -99,7 +99,7 @@ tools_menu(){
             1) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/root.sh) ;;
             2) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/Tailscale.sh) ;;
             3) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/cloudflare.sh) ;;
-            4) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/tools/SYSTEM.sh) ;;
+            4) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/SYSTEM.sh) ;;
             5) bash <(curl -s https://raw.githubusercontent.com/nobita54/-150/refs/heads/main/tools/vps.sh) ;;
             6) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/tools/terminal.sh) ;;
             7) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/tools/rdp.sh) ;;
