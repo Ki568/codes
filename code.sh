@@ -102,7 +102,7 @@ tools_menu(){
             4) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/SYSTEM.sh) ;;
             5) bash <(curl -s https://raw.githubusercontent.com/nobita54/-150/refs/heads/main/tools/vps.sh) ;;
             6) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/terminal.sh) ;;
-            7) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/tools/rdp.sh) ;;
+            7) bash <(curl -s https://raw.githubusercontent.com/Ki568/codes/refs/heads/main/rdp.sh) ;;
             8) return ;;
             *) echo -e "${B_RED}Invalid Option${NC}"; sleep 1;;
         esac
